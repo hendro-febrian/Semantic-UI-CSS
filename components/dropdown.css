@@ -92,7 +92,7 @@
 ---------------*/
 
 .ui.dropdown > .text {
-  display: inline-block;
+  display: inline;
   transition: none;
 }
 
@@ -442,7 +442,7 @@ select.ui.dropdown {
   border-top: 1px solid #FAFAFA;
   padding: 0.78571429rem 1.14285714rem !important;
   white-space: normal;
-  word-wrap: normal;
+  word-wrap: break-word;
 }
 
 /* User Item */
